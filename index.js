@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/about', function(request,response){
-  response.render('about', {title : 'About'})
+  response.render('about', {title : 'About Me'})
 }
 );
 app.listen(app.get('port'), function() {
